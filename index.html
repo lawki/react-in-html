@@ -24,11 +24,11 @@
         //render the para component
         const LikeButton = window.LikeButton;
         const navBar = document.querySelector('#like_button_container');
-        ReactDOM.render(createElement(LikeButton), navBar);
+        ReactDOM.render(<LikeButton/>, navBar);
         //render the button component
         const Counter = window.Counter;
         const counterContainerEl = document.querySelector('#counter_container');
-        ReactDOM.render(createElement(Counter), counterContainerEl);
+        ReactDOM.render(<Counter/>, counterContainerEl);
       })();
     </script>
 
